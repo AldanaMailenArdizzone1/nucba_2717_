@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenidos al lado oscuro</title>
+</head>
+
+<body>
+
+    <!-- solo un h1 por pagina -->
+
+
+    <h1> Soy el h1 y soy el titulo mas importante de la pagina</h1>
+    <h2> Esto es un H2</h2>
+    <h3> Esto es un H3</h3>
+    <h4> Esto es un H4</h4>
+    <h5> Esto es un H5</h5>
+    <h6> Esto es un H6</h6>
+
+    <p> Soy una etiqueta p y dentro mio vas a colocar parrafos</p>
+
+    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dignissimos hic at autem velit id voluptates
+        dolores quidem reprehenderit totam architecto libero voluptas harum, ducimus ut quis quasi nesciunt maiores
+        animi ea quia blanditiis corrupti distinctio deleniti. Voluptate, officia deleniti!
+    </p>
+
+    <p> <strong> Soy un parrafo en negrita </strong></p>
+
+    <p> soy un parrafo que usa la etiqueta br <br />
+    con un salto de linea
+    <br>  el br lo usamos SOLO cuando sepamos html
+   </p>
+
+   <!-- Enlace e imagen -->
+
+   <a href "https://code.visualstudio.com/" targert="_blank"> Soy un enlace</a>
+
+   <br />
+   <p> Clickea la imagen</p>
+   <a href "https://code.visualstudio.com/" targert="_blank"> </a>
+    
+   <img src="https://elcomercio.pe/resizer/BZoyQY6_LzDBty6Sq7xStyD_XJw=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/LPH6TAMIYRD3VKWDH4DKACLWUI.jpg" alt="imagen de lionel messi"
+
+   
+    
+   <hr />
+   <!-- Sirvo para hacer lineas divisorias. Tambien me van a usar solo con HTML -->
+
+<h2> Lista desordenada</h2>
+<ul>
+    <li> elemento 1</li>
+    <li> elemento 2</li>
+    <li> elemento 3</li>
+
+</ul>
+
+<h2> Lista ordenada</h2>
+<0l>
+    <li> elemento 1</li>
+    <li> elemento 2</li>
+    
+</0l>
+
+<h2> Listas anidadas</h2>
+<ol>
+    <li>
+        Soy un elemento de una lista ordenada dentro de otra lista
+        <ul>
+            <li> elemento 1</li>
+            <li> elemento 2</li>
+
+        </ul>
+    </li>
+    Yo tambien tengo una lista adentro
+    <ol>
+        <li> elemento 1 </li>
+        <li> elemento 2</li>
+    </ol>
+</ol>
+ <!-- no me quedó muy parecido pero quedó -->
+
+
+
+
+<h2> Tablas</h2>
+<table>
+    <tr>
+        <th> Lunes</th>
+        <th> Martes</th>
+        <th> Miercoles</th>
+        <th> Jueves</th>
+        <th> Viernes</th>
+    </tr>
+    <tr>
+        <td>9hs</td>
+        <td>8hs</td>
+        <td>7hs</td>
+        <td>6hs</td>
+        <td>5hs</td>
+    </tr>
+
+</table>
+
+<hr />
+
+<!-- HTML SEMANTICO -->
+
+<h2> Formularios</h2>
+<!-- Input de tipo "text" -->
+
+<label for="nombre"> Nombre: </label>
+<input type="text" id="nombre" placeholder="Ingrese su nombre" />
+<br />
+<br />
+
+<label for="apellido"> Apellido:</label>
+<input  type="apellido" id="apellido" placeholder="ingrese su apellido" />
+
+<br /><br />
+
+
+<!-- IMPORTANTE: la etiqueta input va siempre acompañada de una etiqueta label. El "for" del label siempre coincide con el "id" del input -->
+
+<!-- input de tipo "number" -->
+
+<label for="edad"> Edad: </label>
+<input type="number" id="edad" placeholder="ingrese su edad" />
+<br /><br />
+
+
+ <!-- Input de tipo "email" -->
+
+<label for="correo"> Email: </label>
+<input type="email" id="correo" placeholder="ingrese su mail" />
+<br /><br />
+
+ <!-- Input de tipo "password" -->
+
+ <label for="pass"> Contraseña:</label>
+ <input type="password" id="pass" placeholder="ingrese su contraseña" required />
+ <br /><br />
+
+
+ <!-- Input de tipo checkbox  -->
+
+ <label for="checkbox1"> Soy un input de tipo checkbox </label>
+ <input type="checkbox" id="checkbox1" />
+ <!-- en los checkbox no ponemos placeholders -->
+ <br /><br />
+
+ <label for="checkbox2"> Soy otro tipo de checkbox </label>
+ <input type="checkbox" id="checkbox2" checked />
+ <br /><br />
+
+ <!-- Input de tipo radio  -->
+ <span> Gusto de helado favorito</span>
+
+ <input type="radio" id="chocolate" name="gustos" />
+ <label for="chocolate">Chocolate</label>
+
+ <input type="radio" id="dulce de leche" name="gustos" />
+ <label for="dulce de leche">Dulce de leche</label>
+
+ <input type="radio" id="menta granizada" name="gustos" />
+ <label for="menta granizada">Menta Granizada</label>
+ <br /><br />
+
+ <!-- Select  -->
+
+ ¿Jugamos?
+ <select>
+    <option value="piedra">Piedra</option>
+    <option value="papel">Papel</option>
+    <option value="tijera">Tijera</option>
+</select>
+<br /><br />
+
+ <!-- Etiqueta textaria  -->
+
+<label for="texto"> Soy un área de texto</label> <br />
+<textarea id="texto" cols="20" rows="10" placeholder="ingrese su texto aquí"></textarea>
+ <br /><br />
+
+ <!-- Botones  -->
+
+ <input type="submit" value="soy un botón"/>
+
+ <button type="submit" > Soy otro botón </buttom>
+
+</body>
+</html>
